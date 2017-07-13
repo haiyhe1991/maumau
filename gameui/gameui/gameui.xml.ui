@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\maumau\gameui\gameui</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\maumau\gameui\gameui\Resources</Resources>
+  <Name>gameui</Name>
+  <JsonFileName>gameui.json</JsonFileName>
+  <JsonFolder>D:\maumau\gameui\gameui\Json</JsonFolder>
+  <JsonList>
+    <string>logo.json</string>
+    <string>loading_scene.json</string>
+    <string>main.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>540</Height>
+  </CanvasSize>
+  <filePath>D:\maumau\gameui\gameui\gameui.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>gameui0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>logo.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{9d229e7e-6f9e-44dd-aa44-7b846d34c657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resource">
+      <UniqueIdentifier>{01320515-bdb2-4143-966b-fa43aebefa19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShadeLayer">
+      <UniqueIdentifier>{acbbfa06-e5ef-420d-9829-a2592a75c7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SpriteButton">
+      <UniqueIdentifier>{393d02ab-e3ca-4394-b80e-daa1759fcdb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReadCsvFile">
+      <UniqueIdentifier>{a1760761-ae4f-42a8-8c0a-e02a172f3e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameManage">
+      <UniqueIdentifier>{1a1936ef-c793-42f4-a346-c0a22fb21668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MusicHelper">
+      <UniqueIdentifier>{22c47479-9eb9-4c21-923a-082d51b6d478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stage">
+      <UniqueIdentifier>{d14c9f3f-faf3-4891-9349-3264b9d87e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\msg">
+      <UniqueIdentifier>{7f525cb6-775a-4727-9741-6a71b1e57190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer">
+      <UniqueIdentifier>{405a9a8c-c5dc-4a4c-af3b-0805f9543cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer\main">
+      <UniqueIdentifier>{3496b896-17dd-4df4-b8fa-b22e545f4b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer\fight">
+      <UniqueIdentifier>{d0de85d1-cb10-49c6-891a-44896b782609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logic">
+      <UniqueIdentifier>{ed25bd35-97d8-4364-bd77-da15c1d837ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\csv">
+      <UniqueIdentifier>{9ecfd79c-6ae1-4020-ba71-e5a7d45c2fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ai">
+      <UniqueIdentifier>{efe84456-0186-475f-9fc7-3c305de203a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\TimeTools.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\StringTools.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\resource\ResourceManager.cpp">
+      <Filter>src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShadeLayer\ShadeLayer.cpp">
+      <Filter>src\ShadeLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteButton\SpriteButton.cpp">
+      <Filter>src\SpriteButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ReadCsvFile\ReadCsvFile.cpp">
+      <Filter>src\ReadCsvFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManage\GameManage.cpp">
+      <Filter>src\GameManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MusicHelper\MusicHelper.cpp">
+      <Filter>src\MusicHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManage\GameRecord.cpp">
+      <Filter>src\GameManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tools\TickManager.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\stage.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\msg\message.cpp">
+      <Filter>src\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\main\ButtonLayer.cpp">
+      <Filter>src\layer\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\FightLayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\GameMenuLayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\GameOverLayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\GameScoreLayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\BaseLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\LoadingLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\LogoLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\MainLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\GameLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\GameCard.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\GamePlayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\fight\ChessLayer.cpp">
+      <Filter>src\layer\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\logic\CenterLogic.cpp">
+      <Filter>src\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\logic\PlayerLogic.cpp">
+      <Filter>src\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\csv\csv.cpp">
+      <Filter>src\csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\csv\CsvData.cpp">
+      <Filter>src\csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\csv\NameCsv.cpp">
+      <Filter>src\csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ai\GameAI.cpp">
+      <Filter>src\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ai\BaseAI.cpp">
+      <Filter>src\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\logic\WaitTime.cpp">
+      <Filter>src\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\logic\ChessLogic.cpp">
+      <Filter>src\logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\StringTools.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\TimeTools.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mau.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\resource\ResourceManager.h">
+      <Filter>src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShadeLayer\ShadeLayer.h">
+      <Filter>src\ShadeLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteButton\SpriteButton.h">
+      <Filter>src\SpriteButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ReadCsvFile\ReadCsvFile.h">
+      <Filter>src\ReadCsvFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManage\GameManage.h">
+      <Filter>src\GameManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MusicHelper\MusicHelper.h">
+      <Filter>src\MusicHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManage\GameRecord.h">
+      <Filter>src\GameManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tools\TickManager.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\stage.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\msg\message.h">
+      <Filter>src\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\BaseLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\layer_header.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\load.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\LoadingLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\LogoLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\MainLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\GameLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\fight\GameCard.h">
+      <Filter>src\layer\fight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\fight\GamePlayer.h">
+      <Filter>src\layer\fight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\logic\GameLogic.h">
+      <Filter>src\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csv\csv.h">
+      <Filter>src\csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ai\ai.h">
+      <Filter>src\ai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
